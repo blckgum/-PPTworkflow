@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+libs/
+.pytest_cache/
+courses/*/输出/
+.validation/
+*.egg-info/

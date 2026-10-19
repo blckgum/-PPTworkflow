@@ -1,0 +1,176 @@
+# 字段之间是实际制表符；所有图片均为原创概念示意。
+[01]
+layout	cover
+title	CQB
+subtitle	空间、压力与信息判断
+subtitle2	以 2004 年费卢杰城市战为背景的认知讨论
+question	当视野被空间切割，我们还知道多少？
+key	理解复杂环境，先区分看见的事实与补出的解释。
+image	空间网格.png
+caption	原创概念示意：空间网格，不对应任何真实地点或建筑。
+footer	课程定位：历史与认知讨论；参考来源见末页。
+time	120
+
+[02]
+layout	section
+title	先理解问题，再评价判断
+subtitle	讨论环境、信息与人的认知局限
+footer	参考：MCDP 1《Warfighting》第一章，战争中的不确定性。
+time	60
+
+[03]
+layout	statement
+title	看见一部分，不等于理解全局
+subtitle	同一片段，可以被赋予不同解释。
+key	把观察、推断与未知分开记录。
+footer	参考：Kahneman，《Thinking, Fast and Slow》，2011。
+time	75
+
+[04]
+layout	points
+title	CQB 这一概念强调什么
+subtitle	CLOSE QUARTERS BATTLE · 近距离战斗
+key	距离、空间与信息限制同时作用于人的判断。
+bullet	建筑与遮挡会使观察变得片段化。
+bullet	短时间内的信息未必完整或可靠。
+bullet	历史讨论应保留人的局限与真实后果。
+image	信息片段.png
+caption	原创信息片段示意，不代表具体战场。
+footer	参考：MCDP 1；本页为概念层面的讨论。
+time	90
+
+[05]
+layout	blocks
+title	2004 年费卢杰：如何使用历史背景
+key	用可核实的背景提出问题，避免把案例讲成传奇。
+head	已知背景
+body	2004 年 11 月，费卢杰发生激烈城市作战；本课以此作为复杂环境的讨论背景。
+head	讨论边界
+body	不凭单张图片推断人物意图，也不把某段经历推广为所有人的共同体验。
+head	资料态度
+body	不同记述可能存在视角差异；具体数字和引语只有核实后才可引用。
+footer	参考：Estes，《U.S. Marines in Iraq, 2004–2005: Into the Fray》。
+time	100
+
+[06]
+layout	columns
+title	把三种信息分开
+key	清楚标记信息的性质，比急于形成完整故事更重要。
+column	观察|可以指向具体画面、文字或记录的内容。
+column	推断|根据现有证据形成的解释，需要说明依据。
+column	未知|现有材料无法回答的部分，应明确保留。
+footer	课程原创分析框架；不是对历史人物心理状态的诊断。
+time	105
+
+[07]
+layout	table
+title	一张照片能回答什么
+row	材料中的信息|可以讨论|需要补充
+row	拍摄时间与地点|照片所属的背景|原始档案元数据
+row	画面中的可见内容|人物与物体的外观|画面之外的环境
+row	文字说明|说明提供的解释|作者、时间与交叉来源
+footer	方法参考：美国国家档案馆，照片档案的元数据与来源核查。
+time	105
+
+[08]
+layout	kv
+title	压力不是一种单独的变量
+key	讨论认知负荷时，避免把复杂结果归结为个人性格。
+kv	空间限制=视野与信息连接受到影响。
+kv	时间压力=用于核实和讨论的时间可能不足。
+kv	经验差异=相同信息可能引发不同理解。
+image	判断三角.png
+caption	原创概念关系图；颜色与位置不表示数据比例。
+footer	参考：Kahneman，2011；此处为通俗概念讨论。
+time	90
+
+[09]
+layout	chain
+title	阅读一段历史材料的顺序
+key	这是资料阅读方法，不是行动程序。
+step	先记录材料明确呈现的内容。
+step	再列出叙述者给出的解释。
+step	查找相互独立的补充来源。
+step	最后标记仍然无法确认的问题。
+footer	课程原创阅读活动；参考来源见末页。
+time	90
+
+[10]
+layout	flow
+title	从片段到有边界的结论
+step	提出问题
+step	寻找来源
+step	比较证据
+step	保留不确定性
+footer	课程原创资料整理框架。
+time	90
+
+[11]
+layout	diagram
+title	信息之间的空白也是信息
+key	连接线表示关系需要解释，不表示已经证明因果。
+image	信息片段.png
+caption	原创概念示意；矩形表示信息片段，连线表示待核实的关系。
+body	画面可见的部分，与我们希望知道的全貌之间，常有明显距离。
+body	讨论时把缺口说出来，可以减少将想象当作事实的风险。
+footer	课程原创示意；不对应具体历史事件的完整过程。
+time	100
+
+[12]
+layout	grid
+title	四类常见误读
+card	片段当全貌|忽略材料没有覆盖的部分。
+card	结果推意图|只依据结果猜测当时的动机。
+card	熟悉当真实|反复看到同一种说法便减少核查。
+card	单例当规律|把个别经历直接推广到所有情况。
+footer	参考：Kahneman，2011；条目为课程归纳。
+time	100
+
+[13]
+layout	dark
+title	讨论战争，先保留人的尺度
+statement	理解判断的困难，也要看见后果。
+reason	不能把人员伤亡简化为叙事中的戏剧效果。
+reason	不能用未经核实的英雄故事代替证据。
+reason	不能因为理解了环境，就忽略行为的影响。
+footer	课程讨论原则：克制、尊重与事实核查。
+time	90
+
+[14]
+layout	summary
+title	今天带走的三个判断习惯
+num	观察与推断分别记录。
+num	结论的强度与证据的强度相匹配。
+num	资料不足时，明确写下仍然未知。
+footer	课程总结；对应第 6、9、10 页的资料阅读框架。
+time	90
+
+[15]
+layout	qa
+title	如果只给你一张照片
+key	你会先问哪三个问题？
+body	这张照片从哪里来，原始说明是什么？
+body	还有哪些独立来源可以帮助理解背景？
+body	哪些问题仅靠这张照片无法回答？
+note	邀请同学先说观察，再说解释。
+footer	课堂讨论，不预设唯一答案。
+time	90
+
+[16]
+layout	closing
+title	承认未知
+title2	是认真理解的起点
+subtitle	把提问的习惯，带到下一次阅读中。
+footer	课程结束；参考来源与图片说明见下一页。
+time	75
+
+[17]
+layout	sources
+title	参考来源与图片说明
+source	美国海军陆战队，MCDP 1《Warfighting》（1997），第一章：战争的性质。官方入口：marines.mil。
+source	Kenneth W. Estes，《U.S. Marines in Iraq, 2004–2005: Into the Fray》。出版机构：Marine Corps History Division；官方入口：usmcu.edu。
+source	Daniel Kahneman，《Thinking, Fast and Slow》（2011）。本课仅作认知概念参考。
+source	照片核查方法入口：美国国家档案馆 catalog.archives.gov；本示例未使用历史照片。
+source	本课三张配图均为项目原创概念示意；不表示真实地点、行动路线或统计数据。
+footer	加新课时替换为本课实际使用的来源；引用具体页码或档案号更佳。
+time	60

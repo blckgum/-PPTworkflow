@@ -1,0 +1,48 @@
+# 这是格式骨架，请填入本课正文、调整页数与时长。
+# 用自己的图片替换「封面.png」，建议尺寸至少 2880×1620。
+[01]
+layout	cover
+title	课程主题
+subtitle	一句话副标题
+question	开场问题
+key	本课核心观点
+image	封面.png
+caption	填写图片的时间、地点、来源与授权。
+footer	填写本课的实际资料来源。
+time	300
+
+[02]
+layout	points
+title	第一个核心观点
+key	用一句话说清本页结论。
+bullet	要点一
+bullet	要点二
+bullet	要点三
+footer	填写可核实的资料来源。
+time	300
+
+[03]
+layout	table
+title	一个清晰的比较
+row	比较维度|情况一|情况二
+row	维度一|填写内容|填写内容
+row	维度二|填写内容|填写内容
+footer	填写可核实的资料来源。
+time	300
+
+[04]
+layout	summary
+title	今天带走什么
+num	第一个判断习惯
+num	第二个判断习惯
+num	第三个判断习惯
+footer	本课总结。
+time	300
+
+[05]
+layout	sources
+title	参考来源
+source	填写作者、标题、年份、版本及页码或稳定链接。
+source	填写图片原始出处与授权说明。
+footer	只列本课实际使用的资料。
+time	300

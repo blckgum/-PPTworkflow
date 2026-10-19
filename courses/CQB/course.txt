@@ -1,0 +1,8 @@
+title	CQB：空间、压力与信息判断
+subtitle	以 2004 年费卢杰城市战为背景的认知讨论
+org	军事社 · 专题课程
+docid	CQB-01
+deckname	CQB / HUMAN FACTORS
+time_target_min	25
+time_target_max	30
+theme	military_light

@@ -1,0 +1,9 @@
+# 复制模板后修改以下内容；字段间必须使用制表符。
+title	新课程标题
+subtitle	课程副标题
+org	军事社 · 专题课程
+docid	COURSE-01
+deckname	COURSE
+time_target_min	25
+time_target_max	30
+theme	military_light
