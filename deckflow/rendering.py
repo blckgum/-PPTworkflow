@@ -255,11 +255,14 @@ class Renderer:
                   9, color, role="chrome")
         self.panel(Rect(m, .65, width - 2 * m, .014), "accent_mid")
         self.panel(Rect(m, height - .49, width - 2 * m, .012), "accent_mid")
-        self.text(Rect(m, height - .36, width - 2 * m - 2.25, .25), self.page.get("footer"),
+        show_timing = self.theme.get("show_timing", True)
+        footer_width = width - 2 * m - (2.25 if show_timing else 0)
+        self.text(Rect(m, height - .36, footer_width, .25), self.page.get("footer"),
                   8, color, role="chrome", minimum=6)
-        self.text(Rect(width - m - 2.10, height - .36, 2.10, .25),
-                  tr("time_label", minutes=self.page.seconds // 60, seconds=self.page.seconds % 60),
-                  8, color, role="chrome")
+        if show_timing:
+            self.text(Rect(width - m - 2.10, height - .36, 2.10, .25),
+                      tr("time_label", minutes=self.page.seconds // 60, seconds=self.page.seconds % 60),
+                      8, color, role="chrome")
 
 
 def extract_slide_text(slide):

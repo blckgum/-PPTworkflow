@@ -1,0 +1,8 @@
+title	从发现到决策：现代战场的信息优势与小队协同
+subtitle	信息战、电子战与战场感知
+org	军事社 · 专题课程
+docid	INFO-EW-02
+deckname	INFORMATION / ELECTRONIC WARFARE
+time_target_min	25
+time_target_max	30
+theme	military_white

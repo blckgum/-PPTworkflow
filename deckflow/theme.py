@@ -20,6 +20,12 @@ TYPE_SCALE = {"h1": 28, "h2": 20, "body": 18, "small": 11,
 THEMES = {"military_light": {"palette": PALETTE, "fonts": FONTS,
                             "geometry": GEOMETRY, "type_scale": TYPE_SCALE}}
 
+# 纯白简报主题；保留内部配时用于校验，在页面上隐藏时长。
+THEMES["military_white"] = deepcopy(THEMES["military_light"])
+THEMES["military_white"]["palette"].update(paper="FFFFFF", paper_alt="F0F3EE",
+                                          accent="405541", accent_mid="85917F")
+THEMES["military_white"]["show_timing"] = False
+
 
 def get_theme(name):
     return deepcopy(THEMES[name])

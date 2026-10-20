@@ -163,6 +163,25 @@ class OutputTests(unittest.TestCase):
         presentation.slides[0].shapes[0].left = Inches(-.1)
         self.assertFalse(passed(check_geometry(presentation)))
 
+    def test_white_theme_hides_timing_and_preserves_duration_validation(self):
+        root = Path(self.temp.name) / "white"
+        shutil.copytree(ROOT / "courses" / "CQB", root,
+                        ignore=shutil.ignore_patterns("\u8f93\u51fa"))
+        course = load_course(root)
+        course.meta["theme"] = "military_white"
+        build_pptx(course, get_theme("military_white"))
+        presentation = Presentation(course.pptx_path)
+        from deckflow.strings import tr
+        self.assertEqual(str(presentation.slides[3].background.fill.fore_color.rgb), "FFFFFF")
+        for page, slide in zip(course.pages, presentation.slides):
+            label = tr("time_label", minutes=page.seconds // 60, seconds=page.seconds % 60)
+            self.assertFalse(any(shape.has_text_frame and label in shape.text for shape in slide.shapes))
+        self.assertTrue(passed(preflight(course, ROOT / "deckflow")))
+        course.pages[0].entries = [(key, "990" if key == "time" else value)
+                                   for key, value in course.pages[0].entries]
+        self.assertTrue(any(item.code == "V2" and item.status == "fail"
+                            for item in preflight(course, ROOT / "deckflow")))
+
     def test_overflow_detects_cjk_text(self):
         presentation = Presentation(self.course.pptx_path)
         box = presentation.slides[1].shapes.add_textbox(0, 0, Inches(1), Inches(.2))
